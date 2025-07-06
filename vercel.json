@@ -4,15 +4,6 @@
       "NPM_FLAGS": "--legacy-peer-deps"
     }
   },
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "astro",
-  "installCommand": "npm install",
-  "devCommand": "npm run dev",
-  "regions": ["iad1"],
   "functions": {
-    "frontend/src/pages/**/*.astro": {
-      "maxDuration": 30
-    }
   }
 } 

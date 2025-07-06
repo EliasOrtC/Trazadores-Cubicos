@@ -1,9 +1,14 @@
 {
-  "build": {
-    "env": {
-      "NPM_FLAGS": "--legacy-peer-deps"
-    }
-  },
-  "functions": {
-  }
+    "build": {
+      "env": {
+        "NPM_FLAGS": "--legacy-peer-deps"
+      }
+    },
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "framework": "astro",
+    "installCommand": "npm install",
+    "devCommand": "npm run dev",
+    "regions": ["iad1"]
+  
 } 

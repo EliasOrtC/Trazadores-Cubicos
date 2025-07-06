@@ -10,6 +10,20 @@
 	<body>
 		<slot />
 		
+		<!-- Desactivar barra de herramientas de Vercel -->
+		<script>
+			if (typeof window !== 'undefined') {
+				// Desactivar la barra de herramientas de Vercel
+				window.__VERCEL_TOOLBAR_ENABLED__ = false;
+				
+				// También intentar remover si ya está cargada
+				const toolbar = document.querySelector('[data-vercel-toolbar]');
+				if (toolbar) {
+					toolbar.remove();
+				}
+			}
+		</script>
+		
 		<!-- Footer con marca de agua -->
 		<footer class="watermark-footer">
 			<div class="watermark-left">

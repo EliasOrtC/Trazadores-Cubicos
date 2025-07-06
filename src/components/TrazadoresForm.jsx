@@ -10,7 +10,7 @@ import {
   funcionVisual, 
   funcionInterna 
 } from '../utils/formateadoresMatematicos';
-import '../assets/background2.jpg';
+import '../../public/background2.jpg';
 import SidebarPuntos from './SidebarPuntos';
 
 // Función para convertir potencias personalizadas escritas directamente
@@ -68,7 +68,7 @@ import { validarFormulario } from '../utils/Validaciones';
 
 // Agregar estilo global para el fondo
 if (typeof window !== 'undefined') {
-  document.body.style.backgroundImage = "url('/src/assets/background2.jpg')";
+  document.body.style.backgroundImage = "url('../../public/background2.jpg')";
   document.body.style.backgroundSize = 'cover';
   document.body.style.backgroundRepeat = 'no-repeat';
   document.body.style.backgroundAttachment = 'fixed';

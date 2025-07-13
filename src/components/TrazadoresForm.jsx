@@ -68,7 +68,7 @@ import { validarFormulario } from '../utils/Validaciones';
 
 // Agregar estilo global para el fondo
 if (typeof window !== 'undefined') {
-  document.body.style.backgroundImage = "url('/background2.jpg')";
+  document.body.style.backgroundImage = "url('/background2.webp')";
   document.body.style.backgroundSize = 'cover';
   document.body.style.backgroundRepeat = 'no-repeat';
   document.body.style.backgroundAttachment = 'fixed';
